@@ -31,7 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/venturi_usa/proprietary/gpsd:system/vendor/bin/gpsd \
     vendor/samsung/venturi_usa/proprietary/gps.conf:system/etc/gps.conf \
     vendor/samsung/venturi_usa/proprietary/libcamera.so:system/lib/libcamera.so \
-    vendor/samsung/venturi_usa/proprietary/copybit.s5pc110.so:system/lib/hw/copybit.s5pc110.so
+    vendor/samsung/venturi_usa/proprietary/copybit.s5pc110.so:system/lib/hw/copybit.s5pc110.so \
     vendor/samsung/venturi_usa/proprietary/lights.s5pc110.so:system/lib/hw/lights.s5pc110.so \
     vendor/samsung/venturi_usa/proprietary/overlay.s5pc110.so:system/lib/hw/overlay.s5pc110.so \
 
