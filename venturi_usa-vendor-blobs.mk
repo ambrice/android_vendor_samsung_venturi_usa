@@ -55,6 +55,7 @@ PRODUCT_COPY_FILES += \
 
 # camera and tvout
 PRODUCT_COPY_FILES += \
+    vendor/samsung/venturi_usa/proprietary/libActionShot.so:system/lib/libActionShot.so \
     vendor/samsung/venturi_usa/proprietary/libarccamera.so:system/lib/libarccamera.so \
     vendor/samsung/venturi_usa/proprietary/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/samsung/venturi_usa/proprietary/libcameraservice.so:system/lib/libcameraservice.so \
@@ -63,9 +64,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/venturi_usa/proprietary/libddc.so:system/lib/libddc.so \
     vendor/samsung/venturi_usa/proprietary/libedid.so:system/lib/libedid.so \
     vendor/samsung/venturi_usa/proprietary/libPanoraMax1.so:system/lib/libPanoraMax1.so \
+    vendor/samsung/venturi_usa/proprietary/libPlusMe.so:system/lib/libPlusMe.so \
     vendor/samsung/venturi_usa/proprietary/libs3cjpeg.so:system/lib/libs3cjpeg.so \
     vendor/samsung/venturi_usa/proprietary/libseccamera.so:system/lib/libseccamera.so \
     vendor/samsung/venturi_usa/proprietary/libseccameraadaptor.so:system/lib/libseccameraadaptor.so \
+    vendor/samsung/venturi_usa/proprietary/libsecjpegencoder.so:system/lib/libsecjpegencoder.so \
     vendor/samsung/venturi_usa/proprietary/libtvout.so:system/lib/libtvout.so \
     vendor/samsung/venturi_usa/proprietary/lib_tvoutengine.so:system/lib/lib_tvoutengine.so \
     vendor/samsung/venturi_usa/proprietary/libtvoutfimc.so:system/lib/libtvoutfimc.so \
