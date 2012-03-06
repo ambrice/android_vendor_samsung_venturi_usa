@@ -74,7 +74,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/venturi_usa/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
     vendor/samsung/venturi_usa/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
     vendor/samsung/venturi_usa/proprietary/lib/libActionShot.so:system/lib/libActionShot.so \
-    vendor/samsung/venturi_usa/proprietary/lib/libcamera.so:system/lib/libsamsungcamera.so \
+    vendor/samsung/venturi_usa/proprietary/lib/libcamera.so:system/lib/libcamera.so \
+    vendor/samsung/venturi_usa/proprietary/lib/libs3cjpeg.so:system/lib/libs3cjpeg.so \
     vendor/samsung/venturi_usa/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
     vendor/samsung/venturi_usa/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/samsung/venturi_usa/proprietary/lib/libcamerafirmwarejni.so:system/lib/libcamerafirmwarejni.so \
@@ -113,6 +114,7 @@ PRODUCT_COPY_FILES += \
 #
 PRODUCT_COPY_FILES += \
     vendor/samsung/venturi_usa/proprietary/vendor/bin/gpsd:system/vendor/bin/gpsd \
+    vendor/samsung/venturi_usa/proprietary/vendor/etc/gps.xml:system/vendor/etc/gps.xml \
     vendor/samsung/venturi_usa/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/samsung/venturi_usa/proprietary/lib/hw/gps.s5pc110.so:system/lib/hw/gps.s5pc110.so
 
