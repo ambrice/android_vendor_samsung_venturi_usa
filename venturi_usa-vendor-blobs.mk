@@ -26,7 +26,10 @@ PRODUCT_COPY_FILES += \
 # Wifi
 #
 PRODUCT_COPY_FILES += \
-    vendor/samsung/venturi_usa/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt
+    vendor/samsung/venturi_usa/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
+    vendor/samsung/venturi_usa/proprietary/etc/wifi/wifi.conf:system/etc/wifi/wifi.conf \
+    vendor/samsung/venturi_usa/proprietary/etc/wifi/bcm4329_sta.bin:system/etc/wifi/bcm4329_sta.bin \
+    vendor/samsung/venturi_usa/proprietary/etc/wifi/bcm4329_aps.bin:system/etc/wifi/bcm4329_aps.bin
 
 #
 # Display (3D)
