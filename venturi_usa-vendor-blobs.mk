@@ -77,7 +77,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/venturi_usa/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
     vendor/samsung/venturi_usa/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
     vendor/samsung/venturi_usa/proprietary/lib/libActionShot.so:system/lib/libActionShot.so \
-    vendor/samsung/venturi_usa/proprietary/lib/libcamera.so:system/lib/libcamera.so \
+    vendor/samsung/venturi_usa/proprietary/lib/libcamera.so:system/lib/libsamsungcamera.so \
     vendor/samsung/venturi_usa/proprietary/lib/libs3cjpeg.so:system/lib/libs3cjpeg.so \
     vendor/samsung/venturi_usa/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
     vendor/samsung/venturi_usa/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
