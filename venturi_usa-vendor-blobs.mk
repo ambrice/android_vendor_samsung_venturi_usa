@@ -62,7 +62,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/venturi_usa/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
     vendor/samsung/venturi_usa/proprietary/lib/hw/copybit.s5pc110.so:system/lib/hw/copybit.s5pc110.so \
     vendor/samsung/venturi_usa/proprietary/lib/hw/lights.s5pc110.so:system/lib/hw/lights.s5pc110.so \
-    vendor/samsung/venturi_usa/proprietary/lib/hw/overlay.s5pc110.so:system/lib/hw/overlay.s5pc110.so
 
 #
 # Bluetooth
@@ -83,7 +82,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/venturi_usa/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
     vendor/samsung/venturi_usa/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/samsung/venturi_usa/proprietary/lib/libcamerafirmwarejni.so:system/lib/libcamerafirmwarejni.so \
-    vendor/samsung/venturi_usa/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
     vendor/samsung/venturi_usa/proprietary/lib/libCaMotion.so:system/lib/libCaMotion.so \
     vendor/samsung/venturi_usa/proprietary/lib/libcaps.so:system/lib/libcaps.so \
     vendor/samsung/venturi_usa/proprietary/lib/libPanoraMax1.so:system/lib/libPanoraMax1.so \
